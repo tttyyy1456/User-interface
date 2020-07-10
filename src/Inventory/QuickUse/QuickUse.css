@@ -1,0 +1,12 @@
+.QuickUse{
+	display: grid;
+	grid-template-columns: 6em 6em 6em 6em;
+	position: relative;
+	top: 17em;
+	margin-left: 50em;
+	background-color: #D8D8D8;
+	width: 25em;
+	padding: 1em;
+	border-radius: 1%;
+
+}

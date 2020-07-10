@@ -1,0 +1,15 @@
+.Cell{
+	max-width: 5em;
+	max-height: 5em;
+	background-color: gray;
+	border-radius: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.Cell:hover{
+	background-color: blue;
+}
+

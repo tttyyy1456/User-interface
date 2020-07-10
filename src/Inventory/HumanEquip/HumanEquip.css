@@ -1,0 +1,57 @@
+.main{
+	height: 50em;
+}
+
+.hat{
+	display: grid;
+	grid-template-rows: 5em;
+	margin-bottom: 2em;
+	margin-left: 6em;
+}
+
+.face-accessories{
+	display: grid;
+	grid-template-columns: 6em 6em 6em;
+	grid-template-rows: 5em;
+}
+
+.necklace{
+	display: grid;
+	grid-template-rows: 5em;
+	margin-top: 2em;
+	margin-left: 6em;
+	margin-bottom: 2em;
+}
+
+.bodyequip{
+	display: grid;
+	grid-template-columns: 6em 6em;
+	grid-template-rows: 6em 6em;
+	grid-column-gap: 4em;
+	margin-left: 1em;
+}
+
+.bottom{
+	display: grid;
+	grid-template-columns: 6em 6em 6em;
+
+
+}
+
+.left-arm{
+	display: grid;
+	grid-template-rows: 6em 6em;
+
+}
+
+.right-arm{
+	display: grid;
+	grid-template-rows: 6em 6em;
+
+}
+
+.feet{
+	display: grid;
+	grid-template-rows: 6em;
+	margin-left: 6em; 
+}
