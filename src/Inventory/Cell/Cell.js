@@ -19,9 +19,7 @@ const Cell = ({hasItem,values, PosNumber, onChange}) =>{
 			}
 
 
-			console.log(itemFilter)
-			console.log(currentPosition)
-			console.log(PosNumber)
+		
 
 
 		}
