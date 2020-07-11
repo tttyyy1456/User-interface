@@ -5,6 +5,7 @@ import './Inventory/HumanEquip/HumanEquip.css';
 import Cell from './Inventory/Cell/Cell.js';
 import './App.css';
 import QuickUse from './Inventory/QuickUse/QuickUse.js';
+import data from './message.json';
 
 let hasItem = false;
 
@@ -26,9 +27,12 @@ class Inventory extends React.Component{
 
 
 	componentDidMount(){
-		fetch('http://localhost:3000/message.txt')
-		.then(response => response.json())
-		 .then(items => this.setState({values: items.$values}) )
+		data.map((item, index) =>{
+			return this.setState({values: item.$values})
+		})
+		// fetch('http://localhost:3000/message.txt')
+		// .then(response => response.json())
+		//  .then(items => this.setState({values: items.$values}) )
 	}
 
 	Change = (id) =>{

@@ -7,7 +7,10 @@ import Inventory from './Inventory.js';
 
 
 class App extends React.Component {
+
+	
   render(){
+
 
   return (
 
